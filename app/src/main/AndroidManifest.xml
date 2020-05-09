@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rishabh.shopping">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconsyn"
+        android:label="Syndicate"
+
+        android:roundIcon="@drawable/iconsyn"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity android:name=".MainActivity"  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main4Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main5Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main7Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main8Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main9Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main6Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main10Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main11Activity" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Main12Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main13Activity" android:screenOrientation="portrait" />
+        <activity android:name=".Main14Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main15Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main16Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main17Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main18Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main19Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main20Activity" android:screenOrientation="portrait"/>
+        <activity android:name=".Main21Activity" android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

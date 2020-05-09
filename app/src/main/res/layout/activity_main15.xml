@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main15Activity"
+    android:orientation="vertical"
+
+    android:weightSum="7">
+
+    >
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@mipmap/misty"
+        style="bold"
+
+
+        android:layout_weight="4"
+        android:text="As you know pickachu and ash have been very good mates, they always go along well, but this one time, it looks as if they are having a dispute about who is more talented in make proper choices.                 In the game ash and pickachu play against each other. There are rectangular boxes on the screen as per their choice, toss is done and the winner starts the game ,the color of the box selected by ash should get changed to the color of his choice and the box selected by pickachu should get changed to color of his choice. then they click a reveal button, which generates random numbers from 1-30 in all the boxes, the number in the box selected by ash is the points scored by ash and the number in the box selected by pickachu will pickachu’s score,they play many turns atleast 4 then the winner is declared after which the quarrel between the two ends.
+"
+        />
+    <pl.droidsonroids.gif.GifImageView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:src="@drawable/storygify"
+        />
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+
+        android:text="i am ready"
+        android:id="@+id/skipa"/>
+
+
+
+
+
+
+</LinearLayout>

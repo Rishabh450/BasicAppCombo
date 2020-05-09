@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main7Activity"
+    android:background="@drawable/shop">
+
+    <ImageButton
+        android:id="@+id/amazon"
+        android:layout_width="122dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/shopclues"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="-2dp"
+        android:onClick="amazon"
+        app:srcCompat="@drawable/amazon"
+        tools:layout_editor_absoluteX="246dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/olx"
+        android:layout_width="81dp"
+        android:layout_height="78dp"
+        android:layout_alignTop="@+id/ebay"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-92dp"
+        android:onClick="olx"
+        app:srcCompat="@drawable/olx"
+        tools:layout_editor_absoluteX="271dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <ImageButton
+        android:id="@+id/snapdeal"
+        android:layout_width="123dp"
+        android:layout_height="34dp"
+        android:layout_below="@+id/amazon"
+        android:layout_alignEnd="@+id/jabong"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="-1dp"
+        android:onClick="snapdeal"
+        app:srcCompat="@drawable/snapdeal"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <ImageButton
+        android:id="@+id/shopclues"
+        android:layout_width="119dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/olx"
+        android:layout_alignEnd="@+id/ebay"
+        android:onClick="shopclues"
+        app:srcCompat="@drawable/shopclues"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="314dp" />
+
+    <ImageButton
+        android:id="@+id/myntra"
+        android:layout_width="102dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="24dp"
+        android:onClick="myntra"
+        app:srcCompat="@drawable/myntra"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="380dp" />
+
+    <ImageButton
+        android:id="@+id/jabong"
+        android:layout_width="113dp"
+        android:layout_height="38dp"
+        android:layout_alignStart="@+id/ebay"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginBottom="220dp"
+        android:onClick="jabong"
+        app:srcCompat="@drawable/jabong"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <ImageButton
+        android:id="@+id/hs18"
+        android:layout_width="102dp"
+        android:layout_height="73dp"
+        android:layout_below="@+id/olx"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="297dp"
+        android:onClick="hs18"
+        app:srcCompat="@drawable/hs18"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <ImageButton
+        android:id="@+id/ebay"
+        android:layout_width="103dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:onClick="ebay"
+        app:srcCompat="@drawable/ebay"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <ImageButton
+        android:id="@+id/flipkart"
+        android:layout_width="113dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/ebay"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:onClick="flipkart"
+        app:srcCompat="@drawable/flipkart"
+        tools:layout_editor_absoluteX="255dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+</RelativeLayout>

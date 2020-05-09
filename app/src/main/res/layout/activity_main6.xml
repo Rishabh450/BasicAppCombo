@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/party"
+    android:layout_height="match_parent"
+    tools:context=".Main6Activity">
+
+
+    <ImageButton
+        android:id="@+id/video"
+        android:layout_width="163dp"
+        android:layout_height="213dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="206dp"
+        android:layout_marginBottom="65dp"
+        android:onClick="video"
+        app:srcCompat="@mipmap/vid"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <ImageButton
+        android:id="@+id/music"
+        android:layout_width="147dp"
+        android:layout_height="214dp"
+        android:layout_alignEnd="@+id/video"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-190dp"
+        android:layout_marginBottom="63dp"
+        android:onClick="music"
+        app:srcCompat="@mipmap/hp"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="228dp" />
+</RelativeLayout>
